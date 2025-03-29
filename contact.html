@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./Css/contact.css">
+</head>
+<body>
+    <div class="contact-card">
+        <div class="contact-header">
+            <h1>Contact Me</h1>
+            <p>Get in touch or leave me a message</p>
+        </div>
+
+        <form class="contact-section">
+            <div class="contact-info">
+                <div>
+                    <label>First Name</label>
+                    <input type="text" name="first_name" required>
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" name="last_name" required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input type="tel" name="phone">
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">Submit Contact Information</button>
+        </form>
+
+        <div class="feedback-section">
+            <h2>Leave Feedback</h2>
+            <form>
+                <div>
+                    <label>Your Message</label>
+                    <textarea name="feedback" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Feedback</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
